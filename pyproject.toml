@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "wapp-scaffold"
+version = "0.1.0"
+description = ""
+authors = ["jmebits <65461981+jmebits@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "3.9"
+Flask = "^2.2.2"
+flaskwebgui = "^0.3.5"
+pyinstaller = "^5.3"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
